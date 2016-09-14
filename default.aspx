@@ -95,19 +95,19 @@
                             </div>
                         </div>
                         <div class="form-group">
-                          <asp:Label ID="Label5" runat="server" Text="Country" CssClass="col-lg-2 control-label"></asp:Label>                          
+                          <asp:Label ID="Label5" runat="server" Text="Country" CssClass="col-lg-2 control-label"></asp:Label>
                             <div class="col-lg-10">
                                 <asp:DropDownList ID="DropDownList1" runat="server" CssClass="form-control ddl">
                                     <asp:ListItem>INDIA</asp:ListItem>
                                     <asp:ListItem>USA</asp:ListItem>
                                     <asp:ListItem>UK</asp:ListItem>
-                                </asp:DropDownList>                              
+                                </asp:DropDownList>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="col-lg-10 col-lg-offset-2">
                                 <asp:Button ID="btnSubmit" runat="server" CssClass="btn btn-primary" Text="Submit" />
-                                  <asp:Button ID="btnCancel" runat="server" CssClass="btn btn-warning" Text="Cancel" />                              
+                                  <asp:Button ID="btnCancel" runat="server" CssClass="btn btn-warning" Text="Cancel" />
                             </div>
                         </div>
                     </fieldset>
